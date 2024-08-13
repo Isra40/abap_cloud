@@ -4,10 +4,16 @@ CLASS z_abapd_2309 DEFINITION
 
   PUBLIC SECTION.
     INTERFACES if_oo_adt_classrun.
+
+  PRIVATE SECTION.
+
 ENDCLASS.
 
 
-CLASS z_abapd_2309 IMPLEMENTATION.
+
+CLASS Z_ABAPD_2309 IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     DATA cadenas TYPE TABLE OF string.
 
